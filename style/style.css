@@ -1,0 +1,67 @@
+ .block{ 
+     width: 200px;
+    height: 200px; 
+    background-color: red;
+    animation-name:roundAnimation;
+    animation-duration:2s;
+    /* animation-fill-mode: forwards; */
+    animation-iteration-count: infinite; 
+    animation-direction: alternate ;
+}
+
+@keyframes roundAnimation {
+    from{
+        /* border-radius: 0; */
+        background-color: red;
+        margin-left: 0;
+    }
+    to{
+        border-radius: 100%;
+        /* background-color: green; */
+        margin-left: 100px;
+    }
+   }   
+/* .div { 
+    background: red;
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s ease;
+    animation: rotate 1s linear infinite;
+  }
+  @keyframes rotate {
+    from {
+      transform: rotate(360deg);
+    }
+  }
+.ddd{
+    display: flex;
+ } */
+/* .block2{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    animation-name:rotatingAnimation ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotatingAnimation{
+    0%{
+        background-color: aqua;
+    }
+    20%{
+        background-color: yellow;
+    }
+    40%{
+        background-color: red;
+    }
+    60%{
+        background-color: blueviolet;
+    }
+    80%{
+        background-color: blue;
+    }
+    100%{
+        background-color: violet;
+    }
+} */
